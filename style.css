@@ -25,7 +25,7 @@ body {
   justify-content: center;
 }
 .recipe-page {
-  max-width: 80rem;
+  max-width: 46rem;
   background-color: var(--Rose50);
   font-family: "Outfit", sans-serif;
   margin: 80px 0px;
@@ -43,17 +43,17 @@ body {
 .menu > .recipe-title {
   font-family: "Young-Serif", sans-serif;
   font-weight: 400;
-  font-size: 4rem;
+  font-size: 2.5rem;
   color: var(--Stone900);
 }
 .menu > .menu-disc {
   font-family: "Outfit", sans-serif;
-  font-size: 1.857rem;
+  font-size: 1.125rem;
   margin-bottom: 1.5rem;
   color: var(--Stone600);
 }
 .menu > .preparation-wrap {
-  background-color: var(--Stone100);
+  background-color: var(--Rose50);
   padding: 32px;
   border-radius: 15px;
 }
@@ -62,9 +62,71 @@ body {
 }
 .preparation > h1 {
   color: var(--Rose800);
-  font-size: 1.857rem;
+  font-size: 1.125rem;
 }
 .preparation > ul {
   color: var(--Stone600);
+  font-size: 1.125rem;
+}
+.ingredients {
+  padding: 1rem;
+}
+.ingredients > h1 {
+  font-family: "Young-Serif", sans-serif;
   font-size: 1.857rem;
+  color: var(--Brown);
+  font-weight: 400;
+}
+.ingredients > ul {
+  color: var(--Stone600);
+  font-size: 1.125rem;
+}
+.instruction {
+  padding: 1rem;
+}
+.instruction > h1 {
+  font-family: "Young-Serif", sans-serif;
+  font-size: 1.857rem;
+  color: var(--Brown);
+  font-weight: 400;
+}
+.instruction > ol {
+  color: var(--Stone600);
+  font-size: 1.125rem;
+}
+.instruction ol li::marker {
+  font-weight: 800;
+  color: var(--Rose800);
+}
+.nutrition {
+  padding: 1rem;
+}
+.nutrition > h1 {
+  font-family: "Young-Serif", sans-serif;
+  font-size: 1.857rem;
+  color: var(--Brown);
+  font-weight: 400;
+}
+.nutrition > p {
+  color: var(--Stone600);
+  font-size: 1.125rem;
+}
+.nutrition > .nt-table {
+  width: 100%;
+  color: var(--Stone600);
+  font-size: 1.125rem;
+  margin-top: 5px;
+  padding: 15px 0 10px 0;
+  width: 100%;
+  border-collapse: collapse;
+}
+table .brdr {
+  border-bottom: 2px solid var(--Stone150);
+}
+table td {
+  padding: 15px 0 15px 40px;
+}
+.nt-table .nt-value {
+  font-weight: 800;
+  color: var(--Brown);
 }
